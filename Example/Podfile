@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'EcomPodiOS_Example' do
+  pod 'EcomPodiOS', :path => '../'
+
+  target 'EcomPodiOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
