@@ -29,9 +29,9 @@
 
 /* Begin PBXFileReference section */
 		0F9A0758487B2AE94BC853C5 /* Pods-EcomPodiOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcomPodiOS_Example.debug.xcconfig"; path = "Target Support Files/Pods-EcomPodiOS_Example/Pods-EcomPodiOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2EBB655C377589BFB80057DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2EBB655C377589BFB80057DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		34FE5CB839FDC80C58762D63 /* Pods-EcomPodiOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcomPodiOS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EcomPodiOS_Tests/Pods-EcomPodiOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4A7AAD194B40417BE57F2ED8 /* EcomPodiOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EcomPodiOS.podspec; path = ../EcomPodiOS.podspec; sourceTree = "<group>"; };
+		4A7AAD194B40417BE57F2ED8 /* EcomPodiOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EcomPodiOS.podspec; path = ../EcomPodiOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* EcomPodiOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcomPodiOS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		BD0A35E75BA8D52F71E97D63 /* Pods_EcomPodiOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcomPodiOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D21410EBBDDB1F49F85A47 /* Pods_EcomPodiOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcomPodiOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD687DAD06A2B3906318AB2C /* Pods-EcomPodiOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcomPodiOS_Example.release.xcconfig"; path = "Target Support Files/Pods-EcomPodiOS_Example/Pods-EcomPodiOS_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FE24A6C903F7339E2E2E2992 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FE24A6C903F7339E2E2E2992 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				34FE5CB839FDC80C58762D63 /* Pods-EcomPodiOS_Tests.debug.xcconfig */,
 				B3450AB8BB2FFAF8B56209BD /* Pods-EcomPodiOS_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

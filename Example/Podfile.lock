@@ -1,0 +1,16 @@
+PODS:
+  - EcomPodiOS (0.1.0)
+
+DEPENDENCIES:
+  - EcomPodiOS (from `../`)
+
+EXTERNAL SOURCES:
+  EcomPodiOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EcomPodiOS: fa36fc8928a1c1b764bd01d1148ba3df6ddf174d
+
+PODFILE CHECKSUM: c50157ae1a67cb89fd48f2d5fa438487907243fa
+
+COCOAPODS: 1.10.0

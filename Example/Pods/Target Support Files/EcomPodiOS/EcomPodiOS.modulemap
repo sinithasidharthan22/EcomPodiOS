@@ -1,0 +1,6 @@
+framework module EcomPodiOS {
+  umbrella header "EcomPodiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
