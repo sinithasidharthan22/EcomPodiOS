@@ -17,6 +17,9 @@ public class Logger  : UIViewController{
     public func privatemethod(){
             print("private hello")
         }
+    public func podUpdate(){
+            print("pod update working")
+        }
     
 }
 
