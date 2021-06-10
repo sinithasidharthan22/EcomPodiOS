@@ -15,7 +15,7 @@ public class Logger  : UIViewController{
             print("Hello")
         }
     public func privatemethod(){
-            print("private")
+            print("private hello")
         }
     
 }
